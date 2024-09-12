@@ -1,6 +1,7 @@
 header {
     /* header ll be transparent, green is for viewing only for now  */
-    background-color: greenyellow;
+    border-radius: 15px;
+    background-color: rgb(35, 173, 1);
     display: flex;
     flex: row;
     margin: 10px;
@@ -8,7 +9,7 @@ header {
 }
 
 #img_logo img {
-    height: 150px;
+    height: 15vh;
     width: auto;
 }
 
@@ -30,8 +31,7 @@ header {
     height: 72px;
 }
 
-.btn_collapse_eletr,
-.btn_collapse_farmac {
+.btn_collapse_eletr, .btn_collapse_farmac {
     background-color: rgba(61, 61, 61, 0.356);
     padding: 1vw;
     height: 22vh;
@@ -49,8 +49,8 @@ header {
 }
 
 #logo_text_animation {
-    height: 10vw;
+    font-size: 21px;
+    height: 10vh;
     width: 10vh;
-    color: rgba(255, 0, 0, 0.774);
-    font-size: 120%;
+    color: rgba(0, 0, 0, 0.774);
 }
