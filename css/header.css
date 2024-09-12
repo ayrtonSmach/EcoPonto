@@ -1,4 +1,5 @@
 header {
+    /* header ll be transparent, green is for viewing only for now  */
     background-color: greenyellow;
     display: flex;
     flex: row;
