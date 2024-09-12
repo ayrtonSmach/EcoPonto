@@ -7,7 +7,7 @@ header {
 }
 
 #img_logo img {
-    height: 126px;
+    height: 150px;
     width: auto;
 }
 
@@ -29,7 +29,8 @@ header {
     height: 72px;
 }
 
-.btn_collapse_eletr, .btn_collapse_farmac {
+.btn_collapse_eletr,
+.btn_collapse_farmac {
     background-color: rgba(61, 61, 61, 0.356);
     padding: 1vw;
     height: 22vh;
@@ -45,7 +46,10 @@ header {
 .btn_collapse_farmac {
     right: 15vw;
 }
-#logo_text_animation{ 
 
-    color: rgba(199, 4, 134, 0.774);
+#logo_text_animation {
+    height: 10vw;
+    width: 10vh;
+    color: rgba(255, 0, 0, 0.774);
+    font-size: 120%;
 }
