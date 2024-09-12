@@ -1,0 +1,47 @@
+header {
+    background-color: greenyellow;
+    display: flex;
+    flex: row;
+    margin: 10px;
+    padding: 5px;
+}
+
+#img_logo img {
+    height: 126px;
+    width: auto;
+}
+
+#head_icons {
+    display: flex;
+    flex: row;
+    justify-content: end;
+    align-items: center;
+
+    height: 126px;
+    width: 95%;
+}
+
+.btn_info {
+    margin: 4vw;
+}
+
+.btn_info img {
+    height: 72px;
+}
+
+.btn_collapse_eletr, .btn_collapse_farmac {
+    background-color: rgba(61, 61, 61, 0.356);
+    padding: 1vw;
+    height: 22vh;
+
+    position: absolute;
+    top: 16vh;
+}
+
+.btn_collapse_eletr {
+    right: 2vw;
+}
+
+.btn_collapse_farmac {
+    right: 15vw;
+}

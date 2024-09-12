@@ -1,0 +1,14 @@
+section {
+    margin: 1vw 4vh;
+    height: 80vh;
+}
+
+#adress_search-bar {
+    height: 3vh;
+    width: 15vw;
+}
+
+.btn_submit_cep {
+    height: 3.5vh;
+    width: 3vw;
+}
