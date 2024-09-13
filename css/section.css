@@ -1,0 +1,68 @@
+section {
+    margin: 1vw 4vh;
+    height: 80vh;
+}
+
+#adress_search-bar {
+    height: 3vh;
+    width: 15vw;
+}
+
+.btn_submit_cep {
+    height: 3.5vh;
+    width: 3vw;
+}
+
+#menu {
+    width: 100vh;
+    height: 100vw;
+}
+
+#list {
+    background: black;
+    height: max-content;
+    width: 20vw;
+    margin: 50px;
+
+    position: absolute;
+    left: 5vw;
+    top: 21vh;
+}
+
+#close_menu {
+    height: 100vh;
+    width: 15%;
+}
+
+#btn_close {
+    height: 60px;
+    
+    position: absolute;
+    top: 50vh;
+    width: 4vw;
+}
+
+#btn_close img{
+    height: 32px;
+}
+
+.cartao {
+    display: flex;
+    flex: column;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid white;
+    background-color: rgb(184, 184, 184);
+    height: 15%;
+    width: 100%;
+}
+
+.texto_cartao {
+    margin: 0 5px 0;
+    font-size: 14px;
+}
+
+.btn_cartao button {
+    margin: 6px;
+    height: 46px;
+}
