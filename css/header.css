@@ -1,30 +1,49 @@
 header {
     /* header ll be transparent, green is for viewing only for now  */
-    border-radius: 15px;
-    background-color: rgb(35, 173, 1);
     display: flex;
-    flex: row;
-    margin: 10px;
-    padding: 5px;
+    flex-direction: row;
+    width: 100vw;
+    height: 20vh;
 }
 
 #img_logo img {
-    height: 15vh;
+    height: 100%;
     width: auto;
+}
+
+#logo_text_animation {
+    font-family: 'Lato' ,'Courier New', Courier, monospace;
+    margin: 1vh 0 0 0;
+    font-size: 2.5vh;
+    font-weight: 600;
+    color: rgb(6, 74, 46);
 }
 
 #head_icons {
     display: flex;
     flex: row;
-    justify-content: end;
-    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
 
-    height: 126px;
-    width: 95%;
+/* Botôes de informação */
+
+.btn_cartao button {
+    border: 2px solid rgb(6, 73, 46);
+    border-radius: 10px;
+}
+
+.btn_info button {
+    border: 4px solid rgb(6, 73, 46);
+    border-radius: 10px;
 }
 
 .btn_info {
-    margin: 4vw;
+    margin: 0 5vw 0 0;
+}
+
+.btn_info button {
+    margin: 5vh 0 0 3vw;
 }
 
 .btn_info img {
@@ -33,24 +52,17 @@ header {
 
 .btn_collapse_eletr, .btn_collapse_farmac {
     background-color: rgba(61, 61, 61, 0.356);
+    margin: 2vh 0 0 0;
     padding: 1vw;
     height: 22vh;
-
-    position: absolute;
-    top: 16vh;
+    position: absolute; /* Makes sure the collapse stays near the button */
+    top: 13%;
+    color: white;
+    font-family: 'Arvo' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid rgb(6, 74, 46);
+    box-shadow: rgba(0, 0, 0, 0.52) 0px 15px 25px 0px;
 }
 
-.btn_collapse_eletr {
-    right: 2vw;
-}
-
-.btn_collapse_farmac {
-    right: 15vw;
-}
-
-#logo_text_animation {
-    font-size: 21px;
-    height: 10vh;
-    width: 10vh;
-    color: rgba(0, 0, 0, 0.774);
+@media (max-width: 480px) {
+        
 }

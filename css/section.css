@@ -1,36 +1,61 @@
 section {
-    margin: 1vw 4vh;
+    margin: 0 4vh;
     height: 80vh;
 }
 
-#adress_search-bar {
-    height: 3vh;
-    width: 15vw;
+/* Caixa de Busca CEP*/
+#search_mobile {
+    display: none;
 }
 
-.btn_submit_cep {
+#search {
+    width: 20vw;
+}
+
+#search form {
+    display: flex;
+    flex-direction: row;
+}
+
+#search-bar {
+    background-color: rgba(53, 53, 53, 0.356);
+    border: 2px solid rgb(6, 73, 46);
+    border-radius: 10px;
+
+    margin: 0 1vw 0 0;
+    padding: 0 0 0 6px;
     height: 3.5vh;
-    width: 3vw;
+    width: 100%;
 }
 
-#menu {
-    width: 100vh;
-    height: 100vw;
+#search-bar::placeholder {
+    font-family: 'Arvo' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
 }
+
+
+.btn_submit {
+    font-family: 'Arvo' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border: 2px solid rgb(6, 73, 46);
+    border-radius: 10px;
+    height: 4vh;
+    width: 5vw;
+}
+
+/* Menu */
 
 #list {
     background: black;
-    height: max-content;
+    font-family: 'Arvo' ,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
     width: 20vw;
     margin: 50px;
 
-    position: absolute;
-    left: 5vw;
-    top: 21vh;
 }
 
 #close_menu {
-    height: 100vh;
     width: 15%;
 }
 
@@ -65,4 +90,10 @@ section {
 .btn_cartao button {
     margin: 6px;
     height: 46px;
+}
+
+@media (max-width: 480px) {
+    section {
+        margin: 5%;
+    }
 }
