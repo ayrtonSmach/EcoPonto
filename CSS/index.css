@@ -18,15 +18,23 @@ body {
 }
 
 @media (max-width: 480px) {
+    #close_menu {
+        display: none;
+    }
+
     #search_mobile {
         display: block;
+    }
+
+    #search {
+        display: none;
     }
 
     #footer_mobile {
         display: block;
     }
 
-    header {
+    #img_logo, #head_icons, #logo_text_animation {
         display: none;
     }
 

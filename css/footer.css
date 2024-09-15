@@ -1,3 +1,17 @@
 @media (max-width: 480px) {
-    
+    #head_icons_mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .btn_collapse_eletr, .btn_collapse_farmac {
+        top: 63%;
+    }
+    .btn_collapse_eletr {
+        right: 4%;
+    }
+    .btn_collapse_farmac {
+        left: 4%;
+    }
 }
