@@ -33,6 +33,7 @@ header {
     background-color: rgba(6, 73, 46, 0.85);
     border: 3px solid rgba(6, 73, 46, 0.85);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .btn_info {
@@ -62,6 +63,8 @@ header {
     top: 13%;
 
     height: 22vh;
+    min-width: 130px;
+    width: 10vw;
 }
 
 @media (max-width: 480px) {

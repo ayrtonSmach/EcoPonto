@@ -7,6 +7,7 @@
     }
     .btn_collapse_eletr, .btn_collapse_farmac {
         top: 63%;
+        width: 40vw;
     }
     .btn_collapse_eletr {
         right: 4%;

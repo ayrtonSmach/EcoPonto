@@ -26,6 +26,7 @@ section {
     padding: 0 0 0 6px;
     height: 3.5vh;
     width: 100%;
+    min-width: 290px;
 }
 
 #search-bar::placeholder {
@@ -45,6 +46,8 @@ section {
     border-radius: 10px;
     height: 4vh;
     width: 5vw;
+    cursor: pointer;
+    min-width: 65px;
 }
 
 /* Menu */
@@ -61,6 +64,7 @@ section {
     font-size: 18px;
 
     width: 21vw;
+    min-width: 18vw;
     margin: 50px;
 
 }
@@ -68,6 +72,7 @@ section {
 
 .cartao, #list {
     border-radius: 10px;
+    min-width: 256px;
 }
 
 .cartao {
@@ -86,6 +91,7 @@ section {
     font-size: 16px;
     border: 2px solid rgb(63, 128, 11);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .texto_cartao {
@@ -109,6 +115,7 @@ section {
     border: 0;
     border-radius: 10px;
     
+    cursor: pointer;
     position: absolute;
     top: 50vh;
     width: 4vw;
@@ -121,6 +128,7 @@ section {
 @media (max-width: 480px) {
     section {
         height: 77vh;
+        margin: 3%;
     }
 
     #list {
@@ -128,9 +136,5 @@ section {
         top: 8vh;
         left: 4%;
         width: 90vw;
-    }
-
-    section {
-        margin: 3%;
     }
 }

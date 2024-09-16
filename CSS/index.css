@@ -5,7 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    background-image: url('https://tm.ibxk.com.br/2021/12/20/20095730932072.jpg?ims=1200x675');
+    background-image: url('./../media/back-map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
     margin: 0;
     padding: 0;
