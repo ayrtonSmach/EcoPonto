@@ -11,12 +11,23 @@ header {
     width: auto;
 }
 
+
 #logo_text_animation {
     font-family: 'Lato' ,'Courier New', Courier, monospace;
     margin: 1vh 0 0 0;
     font-size: 2.5vh;
     font-weight: 600;
     color: rgb(6, 74, 46);
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards ease-in, opacity 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 #head_icons {
