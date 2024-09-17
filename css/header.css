@@ -11,7 +11,6 @@ header {
     width: auto;
 }
 
-
 #logo_text_animation {
     font-family: 'Lato' ,'Courier New', Courier, monospace;
     margin: 1vh 0 0 0;
@@ -35,6 +34,10 @@ header {
     flex: row;
     justify-content: flex-end;
     width: 100%;
+}
+
+.container_info {
+    display: none;
 }
 
 /* Botôes de informação */
