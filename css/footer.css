@@ -1,3 +1,25 @@
+
+#footer_pc {
+    background-color: rgb(6, 73, 46);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5vh;
+    width: 100vw;
+}
+
+#contato {
+    background-color: rgb(110, 223, 161);
+    height: 5vh;
+    width: 20vh;
+}
+
+#informações {
+    background-color: rgb(110, 223, 161);
+    height: 5vh;
+    width: 20vh;
+}
+
 @media (max-width: 480px) {
     #head_icons_mobile {
         display: flex;
