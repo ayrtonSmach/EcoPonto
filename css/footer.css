@@ -1,23 +1,51 @@
 
 #footer_pc {
-    background-color: rgb(6, 73, 46);
+    background-color: rgb(2, 37, 20);
+    -webkit-box-shadow: 8px -22px 26px -11px rgba(0,0,0,0.55);
+    -moz-box-shadow: 8px -22px 26px -11px rgba(0,0,0,0.55);
+    box-shadow: 8px -22px 26px -11px rgba(0,0,0,0.55);
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 5vh;
+    align-items: center;
+
+    font-family: 'Lato', 'Courier New', Courier, monospace;
+    color: white;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px; 
+
+    height: 23vh;
     width: 100vw;
 }
 
-#contato {
-    background-color: rgb(110, 223, 161);
-    height: 5vh;
-    width: 20vh;
+#footer_content {
+    display: flex;
+    flex-direction: row;
 }
 
-#informações {
-    background-color: rgb(110, 223, 161);
-    height: 5vh;
-    width: 20vh;
+#footer_logo {
+    margin-left: 5vw;
+    height: 10vw;
+    width: auto;
+}
+
+#footer_logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.informacoes {
+    width: 40vh;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+
+    #footer_logo {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -25,7 +53,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-
     }
     .btn_collapse_eletr, .btn_collapse_farmac {
         top: 63%;

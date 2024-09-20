@@ -14,6 +14,8 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
+
+    overflow-x: hidden;
 }
 
 #footer_mobile {
@@ -21,6 +23,11 @@ body {
 }
 
 @media (max-width: 480px) {
+
+    #footer_pc {
+        display: none;
+    }
+
     #close_menu {
         display: none;
     }

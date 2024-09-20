@@ -120,6 +120,7 @@ section {
     position: absolute;
     top: 50vh;
     width: 4vw;
+    min-width: 55px;
 }
 
 #btn_close img{
@@ -128,8 +129,9 @@ section {
 
 @media (max-width: 480px) {
     section {
-        height: 77vh;
+        height: 75vh;
         margin: 3%;
+        overflow: hidden;
     }
 
     #list {

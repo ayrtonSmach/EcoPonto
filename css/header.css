@@ -7,7 +7,6 @@ header {
 }
 
 #img_logo img {
-    
     height: 100%;
     width: auto;
 }
@@ -52,7 +51,7 @@ header {
 }
 
 .btn_info {
-    margin: 0 5vw 0 0;
+    margin: 0 6vw 0 0;
 }
 
 .btn_info button {
@@ -85,6 +84,7 @@ header {
 @media (max-width: 480px) {
     header {
         height: 6vh;
+        width: 100%;
     }
 
     #search_mobile {
@@ -94,13 +94,13 @@ header {
         background-color: rgba(6, 73, 46, 0.55);
         border: 3px solid rgb(6, 73, 46);
         border-radius: 10px;
-        height: 65%;
-        width: 100%;
+        height: 70%;
+        width: 100vw;
         margin: 4% 4% 0 4%;
     }
     #search_mobile img {
         height: auto;
-        width: 43px;
+        width: 40px;
         max-width: 100px; /* Ajuste conforme o tamanho desejado */
         margin-right: 1vw;
     }
@@ -108,7 +108,7 @@ header {
     #text-area form {
         display: flex; /* Para que o input e o botão fiquem alinhados */
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     #search-bar_mobile {
@@ -116,11 +116,10 @@ header {
 
         width: 80%;
         height: 2.6vh;
-        padding: 5px;
+        padding: 2vw;
     }
 
     #search-bar_mobile::placeholder {
-
         padding: 10px;
         border-left: 1px solid rgb(63, 128, 11);
         color: white;
@@ -132,7 +131,7 @@ header {
         all: unset;
 
         width: 12vw;
-        height: 4vh;
+        height: 5vh;
         cursor: pointer;
     }
 }
