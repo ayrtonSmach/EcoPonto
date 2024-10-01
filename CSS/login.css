@@ -13,11 +13,26 @@ body {
     margin: 0;
 }
 
+.incorrect {
+    position: absolute;
+    left: 17.5vw;
+    top: 63.5vh;
+
+    font: 100;
+    font-size: 15px;
+    display: block;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
 hr {
     border: none; /* Remove a borda padrão */
     height: 2px; /* Define a altura da linha */
     background-color: #ffffff; /* Define a cor da linha */
-    margin: 30px 0; /* Espaçamento acima e abaixo da linha */
+    margin: 40px 0; /* Espaçamento acima e abaixo da linha */
 }
 
 section {
