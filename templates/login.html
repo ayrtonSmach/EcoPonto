@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <script src="./js/script.js"></script>
+    <script type="module" src="./../js/login.js"></script>
     
     <script src="https://kit.fontawesome.com/2282fdb901.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./../CSS/login.css">
@@ -21,9 +21,10 @@
                     <input id="user" type="text">
                     
                     <label for="password">Password</label>
-                    <input id="password" type="text">
-                    
-                    <button type="submit">Login</button>
+                    <input id="password" type="password">
+                    <span class="incorrect hidden">Email ou senha Incorretos</span>
+
+                    <button type="submit" onclick="validarLogin()">Login</button>
                     <hr>
                     <div id="social-btns">
                         <div><i class="fa-brands fa-instagram"></i></div>
