@@ -1,0 +1,31 @@
+#Cadastrar {
+    background-color: #4caf50;
+    padding: 5px 72px;
+    font-size: 12px;
+    border-radius: 26px;
+    cursor: pointer;
+    
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+}
+#email {
+    height: 3vh;
+    width: 20vh;
+    border-radius: 15px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+}
+#senha  {
+    height: 3vh;
+    width: 20vh;
+    border-radius: 15px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+}
