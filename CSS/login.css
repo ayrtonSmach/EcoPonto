@@ -1,0 +1,119 @@
+body {
+    background-image: url('https://papelsemente.com.br/wp-content/uploads/2023/03/matthew-smith-Rfflri94rs8-unsplash-scaled.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+hr {
+    border: none; /* Remove a borda padrão */
+    height: 2px; /* Define a altura da linha */
+    background-color: #ffffff; /* Define a cor da linha */
+    margin: 30px 0; /* Espaçamento acima e abaixo da linha */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-container {
+    background-color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    
+    height: 85vh;
+    width: 75vw;
+    border-radius: 5vh;
+}
+
+#login-content {
+    background-color: rgb(88, 219, 128);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 100%;
+    width: 40%;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#logo {
+    height: auto;
+    width: 30vh;
+    
+    margin-bottom: 3vh;
+}
+
+#logo img {
+    height: 100%;
+    width: 100%;
+}
+
+#box {
+    font-family: 'Lato', 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    width: 20vw;
+}
+
+#box input {
+    height: 3vh;
+    margin: 2vh 0;
+    border: 0;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+#box input:focus {
+    border: solid 2px #0bb928;
+    outline: none;
+}
+
+#box button {
+    color: white;
+    font-family: 'Lato', 'Courier New', Courier, monospace;
+    border: solid 0.5px white;
+    padding: 15px 32px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #0bb928;
+}
+
+#social-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2vw;
+
+    height: 5vh;
+    width: 19.6vw;
+}
+
+#social-btns div {
+    height: 100%;
+    width: 5vh;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
