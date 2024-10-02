@@ -11,12 +11,10 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0;
+    overflow: hidden;
 }
 
 .incorrect {
-    position: absolute;
-    left: 17.5vw;
-    top: 63.5vh;
 
     font: 100;
     font-size: 15px;
@@ -45,29 +43,29 @@ section {
 }
 
 .login-container {
-    background-color: white;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: row;
     
     height: 85vh;
     width: 75vw;
-    border-radius: 5vh;
 }
 
 #login-content {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
     background-color: rgb(28, 100, 50);
-
+    
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
+    
     height: 100%;
     width: 40%;
+    min-width: 380px;
 
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
 }
 
 #logo {
@@ -82,20 +80,26 @@ section {
     width: 100%;
 }
 
+/*input div*/
 #box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     font-family: 'Lato', 'Courier New', Courier, monospace;
     font-weight: 700;
     font-size: 22px;
-    color: white;
-    display: flex;
-    flex-direction: column;
 
-    width: 20vw;
+    color: white;
+    width: 65%;
 }
 
+
+/* campo de preenchimento: input */
 #box input {
-    height: 3vh;
-    margin: 2vh 0;
+    height: 3.3vh;
+    min-width: 220px;
+    margin: 1vw 0;
     border: 0;
     border-radius: 20px;
     padding: 0px 10px;
@@ -106,26 +110,29 @@ section {
     outline: none;
 }
 
+/* Login btn: button */
 #box button {
     color: white;
     font-family: 'Lato', 'Courier New', Courier, monospace;
     border: solid 0.5px white;
+    margin-top: 1vh;
     padding: 15px 32px;
     font-size: 22px;
     border-radius: 10px;
     cursor: pointer;
     background-color: #0bb928;
+    min-width: 220px;
 }
 
 #social-btns {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    font-size: 2vw;
+    font-size: 40px;
 
     height: 5vh;
-    width: 19.6vw;
+    width: 100%;
 }
 
 #social-btns div {
@@ -137,10 +144,46 @@ section {
     border-radius: 10px;
 }
 
+#login-main-img img {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
 
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
 
+@media (max-width: 1024px) {
+    #login-content {
+        background-color: transparent;
+    }
 
-#login-img img {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    #login-main-img {
+        display: none;
+    }
+
+    #login-content {
+        width: 100%;
+        border-radius: 2vh;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        margin-bottom: 9vh;
+    }
+
+    #box {
+        width: 80vw;
+    }
+
+    #box input {
+        margin: 1.5vh 0;
+        height: 4vh;
+    }
+
+    .login-container {
+        height: 100vh;
+        width: 100vh;
+    }
 }
