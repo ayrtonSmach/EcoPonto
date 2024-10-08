@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
-    <script type="module" src="./../js/login.js"></script>
-    
+
     <script src="https://kit.fontawesome.com/2282fdb901.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./../CSS/login.css">
+    <script type="module" src="./../../controller/js/login/login.js" defer></script>
+    <link rel="stylesheet" href="./../css/login/login.css">
 </head>
 <body>
     <section>
         <div class="login-container">
             <div id="login-content">
                 <div id="logo">
-                    <img src="./../media/logo_eco-ponto.png">
+                    <img src="./../../assets/img/logo_eco-ponto.png">
                 </div>
                 <div id="box">
                     <label for="user">Username</label>
@@ -22,9 +22,9 @@
                     
                     <label for="password">Password</label>
                     <input id="password" type="password">
-                    <span class="incorrect hidden">Email ou senha Incorretos</span>
-
-                    <button type="submit" onclick="validarLogin()">Login</button>
+                    
+                    <button id='login-button' type="submit" onclick="validarLogin()">Login</button>
+                    <label for="login-button" class="incorrect hidden">Email ou senha Incorretos</label>
                     <hr>
                     <div id="social-btns">
                         <div><i class="fa-brands fa-instagram"></i></div>
@@ -33,8 +33,8 @@
                     </div>
                 </div>
             </div>
-            <div id="login-img">
-
+            <div id="login-main-img" >
+                <img src="./../../assets/img/EcoPonto_Logo.png">
             </div>
         </div>
     </section>
