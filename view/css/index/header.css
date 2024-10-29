@@ -9,6 +9,8 @@ header {
 #img_logo img {
     height: 100%;
     width: auto;
+    position: relative;
+    z-index: 2;
 }
 
 #logo_text_animation {
@@ -34,6 +36,8 @@ header {
     flex: row;
     justify-content: flex-end;
     width: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 .container_info {
@@ -74,7 +78,7 @@ header {
     padding: 1vw;
 
     position: absolute; /* Makes sure the collapse stays near the button */
-    top: 13%;
+    top: 13vh;
 
     height: 22vh;
     min-width: 130px;

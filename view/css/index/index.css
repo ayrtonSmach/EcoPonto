@@ -5,10 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-    background-image: url('./../../../assets/img/back-map.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: green;
     
     margin: 0;
     padding: 0;
@@ -16,6 +13,17 @@ body {
     width: 100vw;
 
     overflow-x: hidden;
+}
+
+#map-iframe {
+    overflow: hidden;
+}
+
+#map-iframe {
+    position: absolute;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 #footer_mobile {
