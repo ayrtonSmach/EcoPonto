@@ -17,9 +17,6 @@ body {
 
 #map-iframe {
     overflow: hidden;
-}
-
-#map-iframe {
     position: absolute;
     overflow: hidden;
     height: 100vh;
