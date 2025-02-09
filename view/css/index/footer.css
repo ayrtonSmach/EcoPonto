@@ -42,17 +42,20 @@
 }
 
 @media (max-width: 768px) {
-
     #footer_logo {
         display: none;
     }
 }
 
 @media (max-width: 480px) {
+    .btn_info {
+        z-index: 10;
+    }
     #head_icons_mobile {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        z-index: 10;
     }
     .btn_collapse_eletr, .btn_collapse_farmac {
         top: 63%;
